@@ -10,11 +10,11 @@ public class Program
 public static void Main(string[] args)
 {
 
-Console.Write(" Сумма = ");
+Console.Write(" РЎСѓРјРјР° = ");
 int sum = Convert.ToInt32(Console.ReadLine());
-Console.Write(" Процент = ");
+Console.Write(" РџСЂРѕС†РµРЅС‚ = ");
 int percent = Convert.ToInt32(Console.ReadLine());
-Console.Write(" Срок = ");
+Console.Write(" РЎСЂРѕРє = ");
 int srok = Convert.ToInt32(Console.ReadLine());
 double c= Math.Pow( (((double)percent/100)+1),srok);
 double a= sum*(double)c;
